@@ -20,11 +20,16 @@ On Github:
 In your terminal window:
 - Cd into the directory where you cloned your Learn-to-code-week1 repository last week.
 - In that directory (but not inside the Learn-to-code-week1 directory) type ```git clone PASTE SSH URL HER```
+- Go to atom:
+    click file > Add Project Folder >
+    then select the Learn-to-code-week2 folder
+    atom should open with this repo/project!
+- In the left sidebar select the README.md file and continue to the next step!
 
 ####Windows
 In your github app you installed last week:
 - Click "Clone"
-- Select Learn-to-code-week2
+- Select Learn-to-code-week2qw
 
 
 ###Lets take a look at some HTML!
@@ -39,7 +44,10 @@ Here is the basic structure of an HTML file:
 </head>
 <body>
   <div>
-    <p></p>
+    The HTML <div> element (or HTML Document Division Element) is the generic container for flow content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang. It should be used only when no other semantic element (such as <article> or <nav>) is appropriate.
+  </div>
+  <div>
+        <ul>
   </div>
 </body>
 
