@@ -92,7 +92,7 @@ Navigate to Flatcolors.net: http://flatcolors.net/palette
 - Select "Duplicate"
 - Rename the new copy anything you want
 - Replace all the colors with the palette you've chosen
-
+- Change the ```index.html``` file to reference your new stylesheet
 
 
 ###Change the Font to something from Google Fonts
@@ -110,11 +110,6 @@ you copied from google fonts. (BONUS: Where should you paste this?)
 5. Copy the code under number four.
 
 6. Paste that code into your stylesheet! (BONUS: Where should you paste this?)
-
-
-
-
-
 
 
 
