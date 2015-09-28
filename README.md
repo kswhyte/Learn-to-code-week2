@@ -24,12 +24,14 @@ In your terminal window:
     click file > Add Project Folder >
     then select the Learn-to-code-week2 folder
     atom should open with this repo/project!
-- In the left sidebar select the README.md file and continue to the next step!
+- In the left sidebar select the README.md file
+- Continue Following along in atom
 
 ####Windows
 In your github app you installed last week:
 - Click "Clone"
-- Select Learn-to-code-week2qw
+- Select Learn-to-code-week2
+
 
 
 ###Lets take a look at some HTML!
@@ -48,7 +50,12 @@ Here is the basic structure of an HTML file:
   </div>
   <div>
         <ul>
+          <li>List Item</li>
+          <li>List Item</li>
+          <li>List Item</li>
+        </ul>
   </div>
+
 </body>
 
 
@@ -60,30 +67,31 @@ The ```<link>``` tag is referencing the CSS stylesheet that the page is using.
 
 The ```<div>``` tag is a generic container used to apply styles and format to multiple elements!
 
-The  ```<body>``` tag will contain the meat of the page make sure to keep all of the main parts of your code within these body tags!
+The  ```<body>``` tag will contain the majority of the pages code!
 
 
 ###How do we check our changes?
 If we're making changes to the code on our local machine, how can we check to see if our changes had any affect on our code?
 
-We'll need to open our HTML file in a browser so we can see what it's going to look like!
-
-####Mac users
-- Right click on the index.html file and click "show in finder"
-- In the finder, right click again and click "open with chrome" (or whatever browser you have)
-Tada!!
-
-####Windows users
-- Find the index.html file in your directory
-- Right click again and click "open with chrome" (or whatever browser you have)
-Tada!!
+Once you've saved a change in Atom:
+- right click on the index.html file in atom
+- select "copy full path"
+- paste that file path into your browsers URL
 
 
+###Change the link to currently referenced stylesheet
+This site looks awesome, but what if it was even better? Change the style sheet
+to reference ```style2.css```
 
-###Fix the link to currently referenced stylesheet
-Our website looks lame and boring and Graham is dumb. How do we make it look better?
 
-Can you tell why our inde.html file isn't getting any of the styles in the stylesheet?
+###Make your own stylesheet
+Navigate to Flatcolors.net: http://flatcolors.net/palette
+
+- Choose a palette you like
+- In the left sidebar right click on ```style2.css```
+- Select "Duplicate"
+- Rename the new copy anything you want
+- Replace all the colors with the palette you've chosen
 
 
 
@@ -104,21 +112,11 @@ you copied from google fonts. (BONUS: Where should you paste this?)
 6. Paste that code into your stylesheet! (BONUS: Where should you paste this?)
 
 
-###Change the font-size of your h1 tags
-First lets change the font size for all the h1 tags on the bottom of your page.
 
-- Look for the h1 tags in the index.html file
-- In your Stylesheet look for the place where styles are applied to the h1 tags, it should look like this:
 
-```
-h1 {
-	font-size: 36px;
-	letter-spacing: -1px;
-	line-height: 100%;
-}
-```
 
-Change the font-size to whatever you want.
+
+
 
 ###Save, Commit and push your changes
 Now that we have changed our awesome website it's time to update our github account. It may seem like we haven't changed much but the rule with git is "Commit early commit often"
